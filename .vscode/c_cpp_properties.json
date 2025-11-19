@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/app/include",
+                "${workspaceFolder}/src/core/include",
+                "${workspaceFolder}/src/render/gles/include",
+                "${workspaceFolder}/src/render/render_interface/include",
+                "${workspaceFolder}/src/scene/include",
+                "${workspaceFolder}/src/view/includes",
+                "/usr/local/include",
+                "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src/app/include",
+                    "${workspaceFolder}/src/app/implements",
+                    "${workspaceFolder}/src/core/include",
+                    "${workspaceFolder}/src/core/implements",
+                    "${workspaceFolder}/src/render/gles/include",
+                    "${workspaceFolder}/src/render/gles/implements",
+                    "${workspaceFolder}/src/render/render_interface/include",
+                    "${workspaceFolder}/src/scene/include",
+                    "${workspaceFolder}/src/scene/implements",
+                    "${workspaceFolder}/src/view/includes",
+                    "${workspaceFolder}/src/view/implements"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
